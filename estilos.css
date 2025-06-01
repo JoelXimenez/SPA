@@ -8,8 +8,7 @@ html, body {
 .menu {
     display: flex;
     justify-content: space-between;
-    background-color: #A3A656;
-    padding-left: 70px; 
+    background-color: #A3A656; 
     align-items: center;
     height: 70px;
 }
@@ -25,12 +24,19 @@ html, body {
     margin: 0;
 }
 
+.menu-izquierda{
+    position: absolute;
+    left: 0;
+    display: flex;
+    gap: 30px;
+    padding-left: 70px;
+}
+
 .menu-derecha {
     position: absolute;
     right: 0;
     display: flex;
     gap: 30px;
-    align-items: center;
     padding-right: 10px;
 }
 
