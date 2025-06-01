@@ -7,9 +7,9 @@ html, body {
 
 .menu {
     display: flex;
-    justify-content: space-between; /* Separa izquierda y derecha */
+    justify-content: space-between;
     background-color: #A3A656;
-    padding: 0 40px; /* margen izquierdo y derecho */
+    padding-left: 70px; 
     align-items: center;
     height: 70px;
 }
