@@ -1,0 +1,271 @@
+/*Estilos para la cabecera*/
+
+.menu{
+    display: flex;
+    background-color: #A3A656;
+    padding-left: 70px;
+    align-items: center;
+    height: 70px;
+    margin: -10px -8px 0px -10px;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-family:'Inter';
+    font-size: 16px;
+    margin-right: 500px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.menu #usuario{
+    display: flex;
+    gap: 10px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.menu #idioma{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#arrow{
+    cursor: pointer;
+}
+
+#usuario p{
+    cursor: pointer;
+}
+
+.menu li:hover{
+    color: #FFFF00;
+}
+
+/*Estilos para el Eslogan*/
+
+.fondo {
+    background-image: url("imagenes/main.png");
+    background-size: contain;         
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 65px;               
+    margin: 0px -8px 0px -10px;
+}
+
+.fondo #texto{
+    padding-bottom: 120px;
+    padding-left: 100px;
+}
+
+h1{
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/*Estilos para el formulario*/
+
+.formulario{
+    height: 100px;
+    background-color: #F2F6F6;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+#campo{
+    border-radius: 20px;
+    height: 60px;
+    width: 250px;
+    border-style: none;
+    padding-left: 10px;
+}
+
+#campo::placeholder{
+    color: #9E9A9A;
+}
+
+/*Estilos para los Servicios*/
+
+.servicios{
+    display: flex;
+    gap: 134px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.servicio{
+    width: 300px;
+}
+
+.servicio #titulo{
+    border-radius: 15px 15px 0px 0px;
+    background-color:  #A3A656;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicio img{
+    width: 100%;
+    height: auto;
+}
+
+.servicio input{
+    border-radius: 35px;
+    background-color:  #A3A656;
+    border-style: none;
+    height: 40px;
+    width: 120px;
+    color: white;
+}
+
+.servicio input:hover{
+    background-color: #384001;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: -20px;
+    margin-left:10px;
+}
+
+/*Estilos para Membresias*/
+
+.membresias{
+    height: 770px;
+    background-color:  #F2F6F6;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -8px;
+    align-content: center;
+}
+
+.membresias #titulo {
+    margin-top: -90px;
+    margin-bottom: 120px;
+}
+
+.opciones{
+    display: flex;
+    gap: 150px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;           
+}
+
+.corona {
+    height: 233px;
+    width: 233px;
+    border: 11px solid #384001; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.opcion .corona img {
+    width: 110px;
+    height: 120px;
+}
+
+.opcion .nombre {
+    margin-top: -25px; 
+    margin-bottom: 20px;
+}
+
+.opcion input {
+    border-radius: 35px;
+    background-color:  #A3A656;
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    color: white;
+    margin-top: -10px; 
+}
+
+.opcion input:hover {
+    background-color: #384001;
+}
+
+.opcion ul{
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/*Estilos para el Pie de Página*/
+
+.pie{
+    height: 97px;
+    background-color: #384001;
+    padding-left: 70px;
+    align-items: center;
+    margin: 0px -8px -8px -10px;
+    display: flex;
+}
+
+.pie ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-family:'Inter';
+    font-size: 16px;
+    margin-right: 220px;
+    font-weight: normal;
+    cursor: pointer;
+    color:  #A3A656;
+}
+
+.pie li:hover{
+    color: #FFFF00;
+}
+
+.pie #redes{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    font-family:'Inter';
+    font-size: 16px;
+    font-weight: normal;
+    color:  #A3A656;
+}
+
+.pie img{
+    cursor: pointer;
+}
+     
